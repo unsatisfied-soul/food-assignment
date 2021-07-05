@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+body{
+   margin: 0;
+   padding: 0;
+}
+ul{
+   text-decoration: none;
+}
+.top-header{
+   width: 90%;
+   margin: 0 auto;
+   border-bottom: 2px solid orange;
+   display: flex;
+   justify-content: space-between;
+}
+.main-logo a{
+   font-family: 'Festive', cursive;
+   font-size: 60px;
+   padding-left: 10px;
+   text-decoration: none;
+   font-weight: bold;
+   color: black;
+}
+.main-menu{
+   padding-right: 20px;
+}
+.menu{
+   margin-top: 25px;
+}
+.menu li{
+   list-style: none;
+   display: inline-block;
+   padding: 20px 10px;
+}
+.menu li a{
+   text-decoration: none;
+   padding: 10px 10px;
+   font-size: 22px;
+   color: rgb(255, 33, 4);
+   font-weight: bold;
+}
+.banner{
+   width: 90%;
+   padding: 60px 0px;
+   margin: 0 auto;
+   display: flex;
+}
+.banner-description{
+   width: 50%;
+}
+.banner-heading{
+   font-size: 70px;
+   margin-bottom: 40px;
+}
+.change-heading{
+   color: orange
+}
+.description{
+   font-size: 18px;
+   width: 80%;
+   margin-bottom: 45px;
+   color: rgb(94, 93, 93);
+}
+.order{
+   padding: 18px 35px;
+   background-image: linear-gradient(to right, rgb(2, 160, 2), rgb(154, 233, 8));
+   text-decoration: none;
+   color: #000;
+   font-size: 18px;
+   font-weight: bold;
+   border-radius: 5px;
+}
+.banner-image{
+   width: 50%;
+}
+.eating-image{
+   width: 80%;
+   height: 500px;
+}
+.about{
+   background-image: url(images/7.png);
+   height: 500px;
+   display: flex;
+   overflow: hidden;
+}
+.about-photo{
+   width: 50%;
+   padding: 30px 40px;
+}
+.hi-image{
+   width: 60%;
+   height: 500px;
+   margin-left: 60px;
+}
+.about-description{
+   width: 50%;
+}
