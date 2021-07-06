@@ -7,7 +7,7 @@ ul{
    text-decoration: none;
 }
 .top-header{
-   width: 90%;
+   width: 85%;
    margin: 0 auto;
    border-bottom: 2px solid orange;
    display: flex;
@@ -40,10 +40,11 @@ ul{
    font-weight: bold;
 }
 .banner{
-   width: 90%;
-   padding: 60px 0px;
+   width: 85%;
+   padding-top: 40px;
    margin: 0 auto;
    display: flex;
+   padding-bottom: 80px;
 }
 .banner-description{
    width: 50%;
@@ -76,22 +77,92 @@ ul{
 .eating-image{
    width: 80%;
    height: 500px;
+   float: right;
 }
 .about{
    background-image: url(images/7.png);
-   height: 500px;
-   display: flex;
+   height: 600px;
    overflow: hidden;
+}
+.about-position{
+   width: 88%;
+   margin: 0 auto;
+   display: flex;
 }
 .about-photo{
    width: 50%;
-   padding: 30px 40px;
+   padding: 70px 40px;
 }
 .hi-image{
-   width: 60%;
-   height: 500px;
+   width: 70%;
+   height: 600px;
    margin-left: 60px;
 }
 .about-description{
    width: 50%;
+   padding: 80px 5px;
+}
+.about-heading{
+   padding-top: 20px;
+   font-size: 70px;
+   margin-bottom: 20px;
+}
+.about-discribe{
+   font-size: 18px;
+   color: rgb(80, 80, 80);
+   margin-bottom: 40px;
+}
+.menu-recipe{
+   padding: 60px 0px;
+   width: 80%;
+   margin: 0 auto;
+   text-align: center;
+}
+.recipe-heading{
+   font-size: 60px;
+   margin-bottom: 20px;
+}
+.recipe-paragph{
+   width: 80%;
+   margin: 0 auto;
+   font-size: 18px;
+   color: rgb(94, 94, 94);
+}
+.food-container{
+   display: flex;
+   padding: 50px 0px;
+}
+.food-recipe{
+   width: 30%;
+   margin-left: 22px;
+   box-shadow: 0px 5px 10px 5px rgb(190, 190, 190);
+   padding: 10px 0px;
+   border-radius: 10px;
+}
+.food-image{
+   width: 90%;
+   margin: 0 auto;
+}
+.image-food{
+   width: 100%;
+   height: 200px;
+}
+.describe-food{
+   width: 80%;
+   margin: 0 auto;
+}
+.food-headinng{
+   margin: 5px 0px;
+   font-size: 30px;
+   color: rgb(241, 177, 0);
+}
+.food-paragph{
+   color: rgb(95, 95, 95);
+}
+footer{
+   background: #000;
+   height: 100px;
+   color: white;
+   text-align: center;
+   padding: 20px 0px;
 }
