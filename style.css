@@ -3,11 +3,30 @@ body{
    margin: 0;
    padding: 0;
 }
-ul{
-   text-decoration: none;
+h1{
+   font-size: 70px;
+}
+p{
+   font-size: 18px;
+   color: rgb(82, 82, 82);
+}
+.all-section{
+   width: 80%;
+   margin: 0 auto;
+}
+.banner-contact{
+   display: flex;
+   padding-bottom: 80px;
+}
+.all-image{
+   width: 50%;
+}
+.inner-image{
+   width: 80%;
+   height: 550px;
 }
 .top-header{
-   width: 85%;
+   width: 80%;
    margin: 0 auto;
    border-bottom: 2px solid orange;
    display: flex;
@@ -39,28 +58,22 @@ ul{
    color: rgb(255, 33, 4);
    font-weight: bold;
 }
-.banner{
-   width: 85%;
+#banner{
    padding-top: 40px;
-   margin: 0 auto;
-   display: flex;
-   padding-bottom: 80px;
 }
 .banner-description{
    width: 50%;
+   padding-top: 20px;
 }
 .banner-heading{
-   font-size: 70px;
    margin-bottom: 40px;
 }
 .change-heading{
    color: orange
 }
 .description{
-   font-size: 18px;
    width: 80%;
    margin-bottom: 45px;
-   color: rgb(94, 93, 93);
 }
 .order{
    padding: 18px 35px;
@@ -71,12 +84,7 @@ ul{
    font-weight: bold;
    border-radius: 5px;
 }
-.banner-image{
-   width: 50%;
-}
-.eating-image{
-   width: 80%;
-   height: 500px;
+#eating-image{
    float: right;
 }
 .about{
@@ -89,13 +97,10 @@ ul{
    margin: 0 auto;
    display: flex;
 }
-.about-photo{
-   width: 50%;
-   padding: 70px 40px;
+#about-photo{
+   padding: 60px 40px;
 }
-.hi-image{
-   width: 70%;
-   height: 600px;
+#photo-about{
    margin-left: 60px;
 }
 .about-description{
@@ -104,18 +109,13 @@ ul{
 }
 .about-heading{
    padding-top: 20px;
-   font-size: 70px;
    margin-bottom: 20px;
 }
 .about-discribe{
-   font-size: 18px;
-   color: rgb(80, 80, 80);
    margin-bottom: 40px;
 }
-.menu-recipe{
+#menu-recipe{
    padding: 60px 0px;
-   width: 80%;
-   margin: 0 auto;
    text-align: center;
 }
 .recipe-heading{
@@ -125,8 +125,6 @@ ul{
 .recipe-paragph{
    width: 80%;
    margin: 0 auto;
-   font-size: 18px;
-   color: rgb(94, 94, 94);
 }
 .food-container{
    display: flex;
@@ -157,20 +155,14 @@ ul{
    color: rgb(241, 177, 0);
 }
 .food-paragph{
-   color: rgb(95, 95, 95);
-}
-.contact{
-   width: 80%;
-   margin: 0 auto;
-   display: flex;
-   padding-bottom: 80px;
+   font-size: 16px;
 }
 .contact-info{
    width: 50%;
 }
 .contact-heading{
-   font-size: 50px;
    text-align: center;
+   margin-bottom: 20px;
 }
 .main-info{
    width: 90%;
@@ -206,14 +198,9 @@ ul{
    font-size: 18px;
    font-weight: bold;
 }
-.contact-image{
-   width: 50%;
+#contact-image{
    padding-top: 50px;
    text-align: right;
-}
-.image-contact{
-   width: 80%;
-   height: 550px;
 }
 footer{
    background: #000;
